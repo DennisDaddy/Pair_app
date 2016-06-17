@@ -8,6 +8,5 @@ Rails.application.routes.draw do
   get  'staticpages/help'
 
   get 'staticpages/contact'
-  get  'signup' => 'users#new'
-
+  
 end
