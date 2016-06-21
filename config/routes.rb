@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   
-  get 'users/new'
+  
 
   root 'staticpages#home'
 
@@ -10,6 +10,6 @@ Rails.application.routes.draw do
 
   get 'contact' => 'staticpages#contact'
 
-  
+  get  'user' => 'users#new'
   
 end
